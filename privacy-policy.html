@@ -56,89 +56,101 @@
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="updated">Last Updated: September 27, 2025</p>
+        <p class="updated">Last Updated: November 2, 2026</p>
 
-        <p>BibleVibe ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use the BibleVibe mobile application (the "App").</p>
+        <p>BibleVibe ("we," "our," or "us") respects your privacy. This Privacy Policy explains what information the BibleVibe mobile application and its home screen widgets (the "App") collect, how we use it, who we share it with, and the choices you have.</p>
 
-        <h2>1. Information We Collect</h2>
-
-        <p><strong>1.1 Information Stored Locally on Your Device</strong></p>
-        <p>BibleVibe stores all personal preferences and data locally on your device. This includes:</p>
+        <h2>1. Information Stored Only on Your Device</h2>
+        <p>The following stays on your device and is not sent to our servers:</p>
         <ul>
-            <li>Your display name (optional, set by you)</li>
-            <li>Theme preferences and app icon selection</li>
+            <li>Theme, app icon, font and widget preferences</li>
             <li>Bible version and language preferences</li>
-            <li>Favorites, bookmarks, and gratitude journal entries</li>
+            <li>Favorites, bookmarks and gratitude journal entries</li>
             <li>Streak and daily progress data</li>
-            <li>Notification/reminder settings</li>
-            <li>Widget configuration preferences</li>
-            <li>Profile photo (stored only on your device)</li>
+            <li>Notification and reminder settings</li>
         </ul>
-        <p>This data is NOT transmitted to our servers. It remains entirely on your device.</p>
 
-        <p><strong>1.2 Subscription Information</strong></p>
-        <p>If you subscribe to BibleVibe Premium, your purchase is processed by Apple through the App Store. We use RevenueCat, a third-party service, to manage subscription status. RevenueCat receives:</p>
+        <h2>2. Information We Collect and Store on Our Servers</h2>
+        <p>To run the Friends features (adding friends, sending verses and messages to their widgets), the App creates an account for you on our backend service (Supabase). You do not need to sign in for this: the App creates an anonymous account in the background. We store:</p>
         <ul>
-            <li>An anonymous app user ID</li>
-            <li>Purchase receipts and subscription status</li>
+            <li><strong>Account identifiers:</strong> a random account ID and your friend code.</li>
+            <li><strong>Display name:</strong> the name you enter in the App. Other users who know your friend code can see it.</li>
+            <li><strong>Profile photo:</strong> if you add one, it is uploaded to our storage so your friends can see it. Anyone who has the photo's link can view it.</li>
+            <li><strong>Friends and friend requests:</strong> which friend codes you are connected to, and requests you send or receive.</li>
+            <li><strong>Content you send:</strong> verses, quotes, prayers, affirmations and custom messages you send to friends, with the time sent and how long they stay on the widget. Only you and the recipient can read them.</li>
+            <li><strong>Push notification token:</strong> a device token used to notify your friends when you send them something, and to notify you. Only our server can read it.</li>
+            <li><strong>Sign in with Apple (optional):</strong> if you choose to sign in with Apple, we receive your Apple account identifier and the email address Apple shares with us. This may be a private relay address if you choose "Hide My Email."</li>
+            <li><strong>Feedback:</strong> if you send feedback, we store your message with your friend code.</li>
+            <li><strong>Reports and blocks:</strong> if you report or block someone, we store the report, including your reason and that person's latest message to you, and the block. We use reports only to review and act on content that breaks our rules.</li>
         </ul>
-        <p>We do NOT receive or store your payment details (credit card numbers, billing address, etc.). All payment processing is handled by Apple.</p>
 
-        <p><strong>1.3 Friends &amp; Widget Features</strong></p>
-        <p>When you use the Friends Widget feature to share verses with friends, minimal data (verse content, sender identifier) may be exchanged through our backend service to deliver verses to your friends' widgets. No personal messages, location data, or contact information is collected or shared.</p>
-
-        <p><strong>1.4 Analytics &amp; Tracking</strong></p>
-        <p>BibleVibe does NOT use any third-party analytics, advertising, or tracking SDKs. We do not track your behavior, location, or browsing activity.</p>
-
-        <h2>2. How We Use Your Information</h2>
-        <p>We use the locally stored information solely to:</p>
+        <h2>3. Third-Party Services</h2>
+        <p>We use the following service providers to operate the App. They process data on our behalf and under their own privacy policies:</p>
         <ul>
-            <li>Provide and personalize your app experience</li>
-            <li>Display your selected themes, verses, and widgets</li>
-            <li>Manage your subscription status</li>
-            <li>Deliver notification reminders you have configured</li>
-            <li>Enable the Friends Widget verse-sharing feature</li>
+            <li><strong>Supabase:</strong> hosts our database, file storage and server functions for the data listed in Section 2.</li>
+            <li><strong>Google Firebase:</strong>
+                <ul>
+                    <li><em>Cloud Messaging:</em> delivers push notifications.</li>
+                    <li><em>Remote Config:</em> delivers content updates.</li>
+                    <li><em>Analytics:</em> collects app usage information, such as app opens, sessions, device model, OS version and an app instance identifier, to help us understand how the App is used and improve it.</li>
+                </ul>
+            </li>
+            <li><strong>RevenueCat:</strong> manages subscriptions. It receives an anonymous app user ID, your purchase receipts and your subscription status.</li>
+            <li><strong>Apple:</strong> processes in-app purchases and, if you use it, Sign in with Apple. We never receive your payment card details.</li>
+            <li><strong>FormSubmit:</strong> when you send feedback, it forwards your message, friend code and, if you signed in with Apple, your email address to our support inbox.</li>
         </ul>
+        <p>We do not use advertising SDKs. We do not track you across other companies' apps or websites, and we do not sell or rent your personal information.</p>
 
-        <h2>3. Data Sharing</h2>
-        <p>We do NOT sell, rent, or share your personal information with third parties for marketing purposes. Information is shared only with:</p>
+        <h2>4. How We Use Your Information</h2>
         <ul>
-            <li><strong>Apple:</strong> For processing in-app purchases and subscriptions</li>
-            <li><strong>RevenueCat:</strong> For subscription management (anonymous data only)</li>
+            <li>To provide the Friends features: find friends by code, deliver verses and messages to their widgets, and send notifications</li>
+            <li>To manage your subscription and Premium features</li>
+            <li>To respond to your feedback and support requests</li>
+            <li>To understand overall usage and improve the App</li>
+            <li>To keep the service secure and prevent abuse</li>
         </ul>
 
-        <h2>4. Data Security</h2>
-        <p>Your data is stored locally on your device and protected by your device's built-in security features (passcode, Face ID, Touch ID). We implement industry-standard security measures for any data that passes through our services.</p>
+        <h2>5. Data Security</h2>
+        <p>Data is sent over encrypted connections (HTTPS). Access rules on our servers let each account read and change only its own data and the messages it sends or receives. No method of storage or transmission is completely secure, but we work to protect your information.</p>
 
-        <h2>5. Children's Privacy</h2>
-        <p>BibleVibe is suitable for users of all ages. We do not knowingly collect personal information from children under 13. Since all data is stored locally on the device, no personal data is transmitted to us.</p>
-
-        <h2>6. Data Retention &amp; Deletion</h2>
-        <p>All user data is stored locally on your device. You can delete all your data at any time by:</p>
+        <h2>6. Data Retention and Deletion</h2>
+        <p>We keep your server data while your account exists. Messages you send expire from your friend's widget after the duration you choose. They remain in your shared history until you or your friend deletes the account.</p>
+        <p>You can delete your account at any time in the App under <strong>Settings → Delete Account</strong>. This permanently deletes:</p>
         <ul>
-            <li>Deleting the BibleVibe app from your device</li>
-            <li>Resetting your profile within the app settings</li>
+            <li>Your profile, friend connections and friend requests</li>
+            <li>Messages you sent and received</li>
+            <li>Your feedback</li>
+            <li>Your push token</li>
+            <li>Your server account</li>
         </ul>
-        <p>If you cancel your subscription, your premium features will remain active until the end of the current billing period. Subscription management and cancellation is handled through Apple's App Store settings.</p>
+        <p>Deleting the App from your device removes the data stored only on your device. It does not delete your server account. You can also ask us to delete your data by emailing us (see Section 10).</p>
+        <p>Deleting your account does not cancel an App Store subscription. Manage or cancel subscriptions in your Apple ID settings.</p>
 
         <h2>7. Your Rights</h2>
-        <p>You have the right to:</p>
+        <p>Depending on where you live, including under the EU/UK GDPR, Turkey's KVKK and US state privacy laws, you may have the right to:</p>
         <ul>
-            <li>Access all your data (it's stored locally on your device)</li>
-            <li>Delete your data by removing the app</li>
-            <li>Opt out of notifications at any time through your device settings</li>
-            <li>Cancel your subscription through Apple's App Store</li>
+            <li>Access, correct or delete your personal information</li>
+            <li>Object to or restrict certain processing</li>
+            <li>Receive a copy of your data</li>
+            <li>Lodge a complaint with your data protection authority</li>
         </ul>
+        <p>To exercise these rights, email us. You can turn off notifications at any time in your device settings.</p>
 
-        <h2>8. Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Last Updated" date at the top of this page. We encourage you to review this policy periodically.</p>
+        <h2>8. International Transfers</h2>
+        <p>Our service providers may process data in countries other than your own, including the United States and the European Union. Where required, we rely on appropriate safeguards such as the providers' standard contractual clauses.</p>
 
-        <h2>9. Contact Us</h2>
-        <p>If you have questions or concerns about this Privacy Policy, please contact us at:</p>
+        <h2>9. Children's Privacy</h2>
+        <p>The App is not directed to children under 13, and we do not knowingly collect personal information from them. If you believe a child under 13 has provided us information, contact us and we will delete it.</p>
+
+        <h2>10. Contact Us</h2>
+        <p>For questions about this Privacy Policy or to exercise your rights, contact us at:</p>
         <p><a href="mailto:biblevibe.app@gmail.com">biblevibe.app@gmail.com</a></p>
 
+        <h2>11. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will post the new version on this page and update the "Last Updated" date. For significant changes, we will also notify you in the App.</p>
+
         <hr class="divider">
-        <p style="font-size: 13px; color: #666; text-align: center;">© 2025 BibleVibe. All rights reserved.</p>
+        <p style="font-size: 13px; color: #666; text-align: center;">© 2026 BibleVibe. All rights reserved.</p>
     </div>
 </body>
 </html>
